@@ -1,11 +1,11 @@
-# NonFunctional Source License (FSL)
+# NonFunctional Source License (NFSL)
 
 <img src="./slice.jpg">
 
 ### Well done!
 
 This repo holds the source code for [notFSL.fyi](https://notFSL.fyi/), the
-homepage for the [NonFunctional Source License (FSL)](https://notFSL.fyi/). If
+homepage for the [NonFunctional Source License (NFSL)](https://notFSL.fyi/). If
 you have questions, join the club. Consider [opening an
 issue](https://github.com/JeffreyUrban/notFSL.fyi/issues/new) (we have those too) 
 or dive in with a PR.
