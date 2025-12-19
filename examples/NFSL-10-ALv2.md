@@ -1,12 +1,53 @@
-# Functional Source License, Version 1.1, ALv2 Future License
+# NonFunctional Source License, Version 1.0, ALv2 Future License
+
+## About This License
+
+### What is the NonFunctional Source License (NFSL)?
+
+The **NonFunctional Source License (NFSL)** is a generalized version of the **Functional Source License (FSL)** that allows for customizable conversion periods, rather than FSL's fixed 2-year period.
+
+**NFSL = FSL with variable duration**
+
+- Same terms and restrictions as FSL (non-competing use only)
+- Same automatic conversion to Apache 2.0 or MIT
+- **Only difference**: Customizable time period instead of fixed 2 years
+
+### This Instance: 10-Year NFSL
+
+This software is licensed under a **10-year NonFunctional Source License**, meaning it will automatically convert to Apache License 2.0 after 10 years instead of FSL's standard 2 years.
+
+### Based on FSL 1.1
+
+The NFSL is based on the **Functional Source License (FSL), Version 1.1, ALv2 Future License** created by Sentry.
+
+**Original FSL:**
+- Website: https://fsl.software
+- Repository: https://github.com/getsentry/fsl.software
+- License File: https://github.com/getsentry/fsl.software/blob/main/FSL-1.1-ALv2.template.md
+- Version: 1.1
+- Created by: Sentry (https://sentry.io)
+
+**NFSL Modification:**
+- Renamed to "NonFunctional Source License" (per FSL's requirement that modifications use a different name)
+- Generalized to support any conversion period (not just 2 years)
+- This instance: 10-year conversion period
+
+**This License Instance:**
+- License: NonFunctional Source License (10-year)
+- Version: 1.0
+- Date: December 19, 2025
+- Author: Jeffrey Urban
+- Conversion Date: December 19, 2035
+
+---
 
 ## Abbreviation
 
-FSL-1.1-ALv2
+NFSL-10-ALv2
 
 ## Notice
 
-Copyright ${year} ${licensor name}
+Copyright 2025 Jeffrey Urban
 
 ## Terms and Conditions
 
@@ -87,10 +128,9 @@ trademarks, trade names, service marks or product names.
 ## Grant of Future License
 
 We hereby irrevocably grant you an additional license to use the Software under
-the Apache License, Version 2.0 that is effective on the second anniversary of
-the date we make the Software available. On or after that date, you may use the
-Software under the Apache License, Version 2.0, in which case the following
-will apply:
+the Apache License, Version 2.0 that is effective 10 years after the date we make
+the Software available. On or after that date, you may use the Software under the
+Apache License, Version 2.0, in which case the following will apply:
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use
 this file except in compliance with the License.

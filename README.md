@@ -1,40 +1,43 @@
-# Functional Source License (FSL)
+# NonFunctional Source License (FSL)
 
-<img src="https://raw.githubusercontent.com/getsentry/fsl.software/main/slice.jpg">
+<img src="./slice.jpg">
 
-### Welcome!
+### Well done!
 
-This repo holds the source code for [fsl.software](https://fsl.software/), the
-homepage for the [Functional Source License (FSL)](https://fsl.software/). If
-you have questions or want to add your company logo, [open an
-issue](https://github.com/getsentry/fsl.software/issues/new) or dive in
-with a PR.
+This repo holds the source code for [notFSL.fyi](https://notFSL.fyi/), the
+homepage for the [NonFunctional Source License (FSL)](https://notFSL.fyi/). If
+you have questions, join the club. Consider [opening an
+issue](https://github.com/JeffreyUrban/notFSL.fyi/issues/new) (we have those too) 
+or dive in with a PR.
 
 
-### Now What?
+### Wait What?
 
-Also in this repo we are [brainstorming what might be
-next](https://github.com/getsentry/fsl.software/issues/5) beyond FSL.
-Here is some context to catch you up on the backstory and where we are headed.
+We decided what is beyond FSL and it's not FSL.
+Here is some content to distract you with a backstory while we head elsewhere.
 
-> We want to do something about harmful free-riding by prioritizing developer
-> sustainability—for ourselves and others—in addition to user freedom.
+> We decided to do something by free-riding on the well-known FSL license,
+> mostly for ourselves, but also others who wanted more user freedom.
 
-[Introducing the Functional Source License: Freedom without Free-riding](https://blog.sentry.io/introducing-the-functional-source-license-freedom-without-free-riding/)
+[Introducing the NonFunctional Source License: Freedom on Your Timeline](https://notFSL.fyi/)
 
-> We value software freedom for users to an extent, but we don’t think of it in
-> the same strident terms as the Free Software movement. We think of freedom
-> primarily in terms of **access** to technology and knowledge to improve
-> efficiency for developers. What’s more, it’s not the only thing that matters
-> to us. We also value **sustainability** for developers. The two are often in
-> tension. Finding and maintaining a good balance between them is what Open
-> Source means to us.
+> We value originality to an extent, but we don’t think it mattered enough
+> not to just take the well-known FSL license and rebrand it as our own.
+> Our version uses the same strident terms as the Functional Source License. 
+> Except for the timeline. Exactly two years was just too strident for us.
+> We think of freedom when it feels like the right time to do so. And we 
+> think you should too. Freedom means that you get to decide if you want 
+> to be efficient or not as a developer. What’s more, it’s not the only 
+> thing that matters to us. We also value long walks on the beach, which 
+> can help relieve the tension of software development. Finding another 
+> project we can claim as our own after changing literally one phrase is
+> what Open Source means to us.
 
-[Sentry’s Open Source Values](https://blog.sentry.io/sentrys-open-source-values/)
+The NonFunctional Source Foundation's Values
 
-> I think the way forward here is to make what I suspect is a loose
-> confederation of folks using non-compete licenses to actually get together
-> and draft their own set of values. To then brand that. And stand behind it
-> proudly.
-
-https://twitter.com/adamhjk/status/1687113805237714944
+> There isn't actually a NonFunctional Source Foundation, but that sounded 
+> more legitimate... until I just said there isn't actually one. In truth, 
+> we're non-competitive with Sentry and the Functional Source License (FSL). 
+> We just wanted to actually draft our own set of values, but that just 
+> wasn't going to happen. So we're borrowing from their brand and standing
+> next to them, pretending to be part of it.
