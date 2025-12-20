@@ -69,6 +69,86 @@
         </div>
       </section>
 
+      <section class="duration-format">
+        <div class="content">
+          <h2>How exactly does the timeline work?</h2>
+
+          <p>
+            The timeframe you specify applies to each software version that is
+            made available. Methods of making software available include
+            pushing a Git commit, publishing a package to a repository,
+            mailing out a CD in a tin, or casting to sea the code as a bottled message.
+          </p>
+
+          <h3>Specifying the Timeline Duration</h3>
+
+          <p>
+            Use of the NFSL requires you to use the following format syntax to specify the <code>duration</code> parameter, for use in the template, that determines how soon your software automatically converts to the permissive future license (MIT or Apache 2.0).
+          </p>
+
+          <h3>Duration Format Syntax</h3>
+
+          <p>
+            <strong>Format:</strong> <code>duration: &lt;integer&gt; &lt;unit&gt;[ &lt;integer&gt; &lt;unit&gt;]*</code> where <code>unit</code> is: <code>years</code>, <code>months</code>, <code>weeks</code>, <code>days</code>
+          </p>
+
+          <ul>
+            <li>Each <code>&lt;integer&gt;</code> must be a positive whole number</li>
+            <li>Units can be singular or plural (<code>1 year</code> or <code>2 years</code>)</li>
+            <li>Multiple units can be combined with spaces</li>
+            <li>When this format definition is followed precisely, it is compatible with git's <code>--before</code> option for practical verification, and can be used in an NFSL license.</li>
+          </ul>
+
+          <h3>Duration Examples</h3>
+
+          <p>Single unit durations:</p>
+
+          <p>
+            <code>2 years</code><br>
+            <code>18 months</code><br>
+            <code>90 days</code><br>
+            <code>12 weeks</code><br>
+            <code>1 year</code><br>
+            <code>36 months</code>
+          </p>
+
+          <p>Mixed unit durations:</p>
+
+          <p>
+            <code>1 year 6 months</code><br>
+            <code>2 years 3 months</code><br>
+            <code>1 year 3 months 2 weeks</code><br>
+            <code>3 years 6 months</code>
+          </p>
+        </div>
+      </section>
+
+      <section class="git-verification">
+        <div class="content">
+          <h2>Verifying License Conversion with Git</h2>
+
+          <p>
+            The git-compatible duration format enables a practical workflow for users to verify which versions of your code have converted to the permissive license:
+          </p>
+
+          <pre><code># For a project licensed as NFSL with "2 years" duration
+git clone &lt;repository&gt;
+git checkout `git rev-list -n 1 --before="2 years ago" main`
+# If LICENSE.md is NFSL, you can now use this version under MIT or Apache 2.0
+
+# For a project with "18 months" duration
+git checkout `git rev-list -n 1 --before="18 months ago" main`
+
+# For a project with "1 year 6 months" duration
+git checkout `git rev-list -n 1 --before="1 year 6 months ago" main`</code></pre>
+
+          <p>
+            This allows anyone to easily identify and use versions of your software that have automatically transitioned to open source licensing. Just like FSL, but with your own timeline. You
+              know, that thing we changed.
+          </p>
+        </div>
+      </section>
+
       <section class="companies" id="who">
         <div class="content">
           <h2>Who?</h2>
@@ -231,22 +311,6 @@
               <a href="https://mariadb.com/bsl11/">Business Source License</a>
               directly. It's similar to NFSL (and FSL) but allows for any
               change license.
-            </dd>
-
-            <dt>How exactly does the timeline work?</dt>
-
-            <dd>
-              The timeframe you specify applies to each software version that is
-              made available. Methods of making software available include
-              pushing a Git commit, publishing a package to a repository, or
-              mailing out a CD in a tin. For example, if you specified 18 months,
-              one could clone a repo, run
-              <code
-                >git checkout `git rev-list -n 1 --before="18 months ago"
-                master`</code
-              >, and—if <code>LICENSE.md</code> is NFSL—use that version under
-              MIT or Apache 2.0. Just like FSL, but with your own timeline. You
-              know, that thing we changed.
             </dd>
 
             <dt>What's with the name?</dt>
