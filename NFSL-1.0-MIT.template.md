@@ -1,48 +1,8 @@
 # NonFunctional Source License, Version 1.0, MIT Future License
 
-## About This License
-
-### What is the NonFunctional Source License (NFSL)?
-
-The **NonFunctional Source License (NFSL)** is a generalized version of the **Functional Source License (FSL)** that allows for customizable conversion periods, rather than FSL's fixed 2-year period.
-
-**NFSL = FSL with variable duration**
-
-- Same terms and restrictions as FSL (non-competing use only)
-- Same automatic conversion to Apache 2.0 or MIT
-- **Only difference**: Customizable time period instead of fixed 2 years
-
-### This Instance: ${duration} NFSL
-
-This software is licensed under a **${duration} NonFunctional Source License**, meaning it will automatically convert to the MIT License after ${duration} instead of FSL's standard 2 years.
-
-### Based on FSL 1.1
-
-The NFSL is based on the **Functional Source License (FSL), Version 1.1, MIT Future License** created by Sentry.
-
-**Original FSL:**
-- Website: https://fsl.software
-- Repository: https://github.com/getsentry/fsl.software
-- License File: https://github.com/getsentry/fsl.software/blob/main/FSL-1.1-MIT.template.md
-- Version: 1.1
-- Created by: Sentry (https://sentry.io)
-
-**NFSL Modification:**
-- Renamed to "NonFunctional Source License" (per FSL's requirement that modifications use a different name)
-- Generalized to support any conversion period (not just 2 years)
-- This instance: ${duration} conversion period
-
-**This License Instance:**
-- License: NonFunctional Source License (${duration})
-- Version: 1.0
-- Licensor: ${licensor name}
-- Copyright Year: ${year}
-
----
-
 ## Abbreviation
 
-NFSL-${duration_identifier}-MIT
+NFSL-1.0-MIT
 
 ## Notice
 
@@ -127,9 +87,9 @@ trademarks, trade names, service marks or product names.
 ## Grant of Future License
 
 We hereby irrevocably grant you an additional license to use the Software under
-the MIT license that is effective ${duration} after the date we make the Software
-available. On or after that date, you may use the Software under the MIT license,
-in which case the following will apply:
+the MIT license that is effective ${duration} after the date we make
+the Software available. On or after that date, you may use the Software under
+the MIT license, in which case the following will apply:
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
