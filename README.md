@@ -39,9 +39,9 @@ NFSL templates require a `duration` parameter specifying how soon the software c
 
 **Format:** `<integer> <unit>[ <integer> <unit>]*` where `unit` is: `years`, `months`, `weeks`, `days`
 
-See the [homepage](https://notFSL.fyi/) for complete documentation, examples, and git verification workflow.
+> See the [homepage](https://notFSL.fyi/) for complete documentation, examples, and git verification workflow.
 
-The NonFunctional Source Foundation's Values
+### The NonFunctional Source Foundation's Values
 
 > There isn't actually a NonFunctional Source Foundation, but that sounded 
 > more legitimate... until I just said there isn't actually one. In truth, 
